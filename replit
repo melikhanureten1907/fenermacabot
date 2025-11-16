@@ -1,0 +1,13 @@
+run = "python3 main.py"
+entrypoint = "main.py"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+TELEGRAM_TOKEN = "7758488803:AAEw2Qybib4CYfPZgmQX4GdFAwy_bbbKj0g"
+TELEGRAM_CHAT_ID = "1388058967"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
