@@ -1,5 +1,1 @@
-Flask
-beautifulsoup4
-requests
-python-telegram-bot==20.3
-gunicorn
+python-telegram-bot[job-queue]==20.3
